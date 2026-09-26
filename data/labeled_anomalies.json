@@ -1,0 +1,1574 @@
+{
+  "P-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 6000,
+    "testLength": 5574,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4888,
+        5054
+      ]
+    ]
+  },
+  "P-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 6399,
+    "testLength": 4301,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        767,
+        1050
+      ],
+      [
+        2995,
+        3204
+      ]
+    ]
+  },
+  "P-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 7988,
+    "testLength": 5180,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3789,
+        3994
+      ]
+    ]
+  },
+  "P-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 8884,
+    "testLength": 6627,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        5456,
+        5747
+      ]
+    ]
+  },
+  "P-5": {
+    "spacecraft": "SMAP",
+    "trainLength": 7238,
+    "testLength": 4885,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        940,
+        1072
+      ],
+      [
+        2967,
+        3110
+      ]
+    ]
+  },
+  "P-6": {
+    "spacecraft": "SMAP",
+    "trainLength": 8733,
+    "testLength": 4739,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2313,
+        2595
+      ],
+      [
+        2143,
+        2380
+      ]
+    ]
+  },
+  "P-7": {
+    "spacecraft": "SMAP",
+    "trainLength": 6836,
+    "testLength": 4142,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1231,
+        1298
+      ]
+    ]
+  },
+  "S-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 8058,
+    "testLength": 6267,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        333,
+        509
+      ],
+      [
+        2205,
+        2394
+      ]
+    ]
+  },
+  "S-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 7418,
+    "testLength": 6901,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1468,
+        1721
+      ],
+      [
+        5124,
+        5197
+      ]
+    ]
+  },
+  "E-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 8201,
+    "testLength": 4191,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2188,
+        2470
+      ],
+      [
+        1237,
+        1448
+      ],
+      [
+        1959,
+        2238
+      ]
+    ]
+  },
+  "E-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 6438,
+    "testLength": 4049,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        733,
+        907
+      ],
+      [
+        237,
+        358
+      ],
+      [
+        273,
+        489
+      ]
+    ]
+  },
+  "E-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 8007,
+    "testLength": 4709,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1288,
+        1378
+      ]
+    ]
+  },
+  "E-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 7368,
+    "testLength": 4522,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1970,
+        2130
+      ]
+    ]
+  },
+  "E-5": {
+    "spacecraft": "SMAP",
+    "trainLength": 6388,
+    "testLength": 5575,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        633,
+        786
+      ],
+      [
+        1513,
+        1574
+      ],
+      [
+        2308,
+        2364
+      ]
+    ]
+  },
+  "E-6": {
+    "spacecraft": "SMAP",
+    "trainLength": 7138,
+    "testLength": 5270,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        725,
+        984
+      ],
+      [
+        2555,
+        2781
+      ],
+      [
+        4678,
+        4921
+      ]
+    ]
+  },
+  "E-7": {
+    "spacecraft": "SMAP",
+    "trainLength": 8559,
+    "testLength": 4551,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2393,
+        2572
+      ],
+      [
+        3623,
+        3700
+      ],
+      [
+        1821,
+        1957
+      ]
+    ]
+  },
+  "E-8": {
+    "spacecraft": "SMAP",
+    "trainLength": 8115,
+    "testLength": 4375,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1354,
+        1410
+      ],
+      [
+        1936,
+        2079
+      ]
+    ]
+  },
+  "E-9": {
+    "spacecraft": "SMAP",
+    "trainLength": 8063,
+    "testLength": 6467,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1977,
+        2051
+      ],
+      [
+        3353,
+        3491
+      ],
+      [
+        2910,
+        3113
+      ]
+    ]
+  },
+  "E-10": {
+    "spacecraft": "SMAP",
+    "trainLength": 8789,
+    "testLength": 6752,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        775,
+        972
+      ],
+      [
+        5262,
+        5557
+      ]
+    ]
+  },
+  "E-11": {
+    "spacecraft": "SMAP",
+    "trainLength": 6782,
+    "testLength": 5152,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2738,
+        2831
+      ],
+      [
+        1950,
+        2237
+      ],
+      [
+        2576,
+        2769
+      ]
+    ]
+  },
+  "E-12": {
+    "spacecraft": "SMAP",
+    "trainLength": 6294,
+    "testLength": 5483,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3409,
+        3586
+      ]
+    ]
+  },
+  "E-13": {
+    "spacecraft": "SMAP",
+    "trainLength": 6196,
+    "testLength": 6659,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        113,
+        312
+      ]
+    ]
+  },
+  "A-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 6988,
+    "testLength": 5665,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2165,
+        2263
+      ],
+      [
+        2222,
+        2345
+      ]
+    ]
+  },
+  "A-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 8000,
+    "testLength": 5361,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1314,
+        1408
+      ]
+    ]
+  },
+  "A-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 8429,
+    "testLength": 6131,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3796,
+        4019
+      ],
+      [
+        1263,
+        1378
+      ],
+      [
+        4976,
+        5073
+      ]
+    ]
+  },
+  "A-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 8651,
+    "testLength": 5929,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        5085,
+        5204
+      ],
+      [
+        1121,
+        1319
+      ]
+    ]
+  },
+  "A-5": {
+    "spacecraft": "SMAP",
+    "trainLength": 6853,
+    "testLength": 5255,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2244,
+        2371
+      ],
+      [
+        4010,
+        4118
+      ],
+      [
+        3193,
+        3335
+      ]
+    ]
+  },
+  "A-6": {
+    "spacecraft": "SMAP",
+    "trainLength": 7801,
+    "testLength": 4856,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        224,
+        278
+      ],
+      [
+        4276,
+        4386
+      ],
+      [
+        3161,
+        3220
+      ]
+    ]
+  },
+  "A-7": {
+    "spacecraft": "SMAP",
+    "trainLength": 7404,
+    "testLength": 6395,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2609,
+        2874
+      ]
+    ]
+  },
+  "A-8": {
+    "spacecraft": "SMAP",
+    "trainLength": 8361,
+    "testLength": 5329,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1266,
+        1431
+      ],
+      [
+        3067,
+        3314
+      ],
+      [
+        736,
+        1034
+      ]
+    ]
+  },
+  "A-9": {
+    "spacecraft": "SMAP",
+    "trainLength": 8558,
+    "testLength": 5055,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3899,
+        4118
+      ],
+      [
+        3628,
+        3801
+      ]
+    ]
+  },
+  "D-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 6939,
+    "testLength": 5148,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1051,
+        1110
+      ],
+      [
+        1407,
+        1484
+      ],
+      [
+        2925,
+        3162
+      ]
+    ]
+  },
+  "D-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 7510,
+    "testLength": 5806,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3182,
+        3407
+      ],
+      [
+        1438,
+        1532
+      ]
+    ]
+  },
+  "D-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 7645,
+    "testLength": 6461,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4877,
+        5080
+      ],
+      [
+        1500,
+        1754
+      ],
+      [
+        2280,
+        2555
+      ]
+    ]
+  },
+  "D-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 8488,
+    "testLength": 6596,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4098,
+        4222
+      ],
+      [
+        1068,
+        1208
+      ]
+    ]
+  },
+  "D-5": {
+    "spacecraft": "SMAP",
+    "trainLength": 6602,
+    "testLength": 6325,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        498,
+        780
+      ]
+    ]
+  },
+  "D-6": {
+    "spacecraft": "SMAP",
+    "trainLength": 7227,
+    "testLength": 5505,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3314,
+        3392
+      ],
+      [
+        1037,
+        1095
+      ],
+      [
+        1336,
+        1493
+      ]
+    ]
+  },
+  "D-7": {
+    "spacecraft": "SMAP",
+    "trainLength": 7249,
+    "testLength": 4500,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3357,
+        3638
+      ]
+    ]
+  },
+  "D-8": {
+    "spacecraft": "SMAP",
+    "trainLength": 6671,
+    "testLength": 6820,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        5644,
+        5732
+      ]
+    ]
+  },
+  "D-9": {
+    "spacecraft": "SMAP",
+    "trainLength": 8561,
+    "testLength": 5407,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2248,
+        2321
+      ]
+    ]
+  },
+  "G-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 7833,
+    "testLength": 4601,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1486,
+        1725
+      ]
+    ]
+  },
+  "G-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 6901,
+    "testLength": 4126,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3041,
+        3152
+      ],
+      [
+        1465,
+        1584
+      ]
+    ]
+  },
+  "G-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 7889,
+    "testLength": 5231,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4631,
+        4848
+      ],
+      [
+        677,
+        849
+      ]
+    ]
+  },
+  "G-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 7867,
+    "testLength": 4771,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2495,
+        2665
+      ]
+    ]
+  },
+  "T-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 7486,
+    "testLength": 6570,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        301,
+        468
+      ],
+      [
+        3005,
+        3066
+      ]
+    ]
+  },
+  "T-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 7239,
+    "testLength": 4857,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        979,
+        1233
+      ]
+    ]
+  },
+  "T-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 8349,
+    "testLength": 6360,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2619,
+        2906
+      ],
+      [
+        1796,
+        1923
+      ]
+    ]
+  },
+  "T-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 7946,
+    "testLength": 6873,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3601,
+        3836
+      ]
+    ]
+  },
+  "T-5": {
+    "spacecraft": "SMAP",
+    "trainLength": 7796,
+    "testLength": 5499,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2089,
+        2229
+      ],
+      [
+        2732,
+        2802
+      ]
+    ]
+  },
+  "T-6": {
+    "spacecraft": "SMAP",
+    "trainLength": 7930,
+    "testLength": 5324,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1644,
+        1891
+      ],
+      [
+        2718,
+        2884
+      ],
+      [
+        3012,
+        3102
+      ]
+    ]
+  },
+  "T-7": {
+    "spacecraft": "SMAP",
+    "trainLength": 6255,
+    "testLength": 4503,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2883,
+        2993
+      ],
+      [
+        442,
+        565
+      ]
+    ]
+  },
+  "T-8": {
+    "spacecraft": "SMAP",
+    "trainLength": 7193,
+    "testLength": 4365,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2509,
+        2659
+      ],
+      [
+        3499,
+        3638
+      ],
+      [
+        3543,
+        3811
+      ]
+    ]
+  },
+  "T-9": {
+    "spacecraft": "SMAP",
+    "trainLength": 6575,
+    "testLength": 5619,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3776,
+        4017
+      ],
+      [
+        1227,
+        1396
+      ],
+      [
+        5044,
+        5253
+      ]
+    ]
+  },
+  "F-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 8322,
+    "testLength": 6827,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2271,
+        2505
+      ]
+    ]
+  },
+  "F-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 7980,
+    "testLength": 5067,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2034,
+        2089
+      ],
+      [
+        875,
+        1164
+      ],
+      [
+        2296,
+        2538
+      ]
+    ]
+  },
+  "F-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 8060,
+    "testLength": 5149,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2487,
+        2551
+      ],
+      [
+        3480,
+        3597
+      ],
+      [
+        3198,
+        3389
+      ]
+    ]
+  },
+  "F-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 7156,
+    "testLength": 4551,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        832,
+        1077
+      ]
+    ]
+  },
+  "F-5": {
+    "spacecraft": "SMAP",
+    "trainLength": 8454,
+    "testLength": 6831,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        5536,
+        5678
+      ],
+      [
+        6055,
+        6255
+      ]
+    ]
+  },
+  "F-6": {
+    "spacecraft": "SMAP",
+    "trainLength": 6159,
+    "testLength": 4493,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2869,
+        3169
+      ]
+    ]
+  },
+  "F-7": {
+    "spacecraft": "SMAP",
+    "trainLength": 6617,
+    "testLength": 4938,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3702,
+        3772
+      ]
+    ]
+  },
+  "C-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 8065,
+    "testLength": 4397,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2086,
+        2140
+      ]
+    ]
+  },
+  "C-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 7896,
+    "testLength": 4128,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3570,
+        3782
+      ],
+      [
+        2079,
+        2175
+      ],
+      [
+        279,
+        358
+      ]
+    ]
+  },
+  "M-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 7335,
+    "testLength": 6492,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3113,
+        3349
+      ],
+      [
+        2109,
+        2374
+      ]
+    ]
+  },
+  "M-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 6767,
+    "testLength": 4124,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2633,
+        2888
+      ],
+      [
+        3297,
+        3471
+      ],
+      [
+        134,
+        414
+      ]
+    ]
+  },
+  "M-3": {
+    "spacecraft": "SMAP",
+    "trainLength": 8353,
+    "testLength": 5418,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1503,
+        1699
+      ]
+    ]
+  },
+  "M-4": {
+    "spacecraft": "SMAP",
+    "trainLength": 8358,
+    "testLength": 5600,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4455,
+        4646
+      ],
+      [
+        1249,
+        1456
+      ]
+    ]
+  },
+  "M-5": {
+    "spacecraft": "SMAP",
+    "trainLength": 6777,
+    "testLength": 5360,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2701,
+        2841
+      ]
+    ]
+  },
+  "M-6": {
+    "spacecraft": "SMAP",
+    "trainLength": 7737,
+    "testLength": 5346,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4001,
+        4228
+      ],
+      [
+        2583,
+        2818
+      ]
+    ]
+  },
+  "M-7": {
+    "spacecraft": "SMAP",
+    "trainLength": 7416,
+    "testLength": 5759,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3469,
+        3660
+      ],
+      [
+        2673,
+        2758
+      ],
+      [
+        1188,
+        1255
+      ]
+    ]
+  },
+  "R-1": {
+    "spacecraft": "SMAP",
+    "trainLength": 8779,
+    "testLength": 4387,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2042,
+        2317
+      ],
+      [
+        3071,
+        3167
+      ]
+    ]
+  },
+  "R-2": {
+    "spacecraft": "SMAP",
+    "trainLength": 8015,
+    "testLength": 5887,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1144,
+        1338
+      ]
+    ]
+  },
+  "MSL-1": {
+    "spacecraft": "MSL",
+    "trainLength": 8434,
+    "testLength": 6417,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2468,
+        2521
+      ],
+      [
+        5408,
+        5590
+      ]
+    ]
+  },
+  "MSL-2": {
+    "spacecraft": "MSL",
+    "trainLength": 8748,
+    "testLength": 5838,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        369,
+        628
+      ]
+    ]
+  },
+  "MSL-3": {
+    "spacecraft": "MSL",
+    "trainLength": 8861,
+    "testLength": 5386,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2716,
+        2948
+      ]
+    ]
+  },
+  "MSL-4": {
+    "spacecraft": "MSL",
+    "trainLength": 7211,
+    "testLength": 4440,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2448,
+        2686
+      ],
+      [
+        1658,
+        1870
+      ],
+      [
+        1265,
+        1526
+      ]
+    ]
+  },
+  "MSL-5": {
+    "spacecraft": "MSL",
+    "trainLength": 6931,
+    "testLength": 5891,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2797,
+        2907
+      ],
+      [
+        2625,
+        2783
+      ]
+    ]
+  },
+  "MSL-6": {
+    "spacecraft": "MSL",
+    "trainLength": 6994,
+    "testLength": 4959,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2206,
+        2268
+      ],
+      [
+        3367,
+        3541
+      ],
+      [
+        4119,
+        4326
+      ]
+    ]
+  },
+  "MSL-7": {
+    "spacecraft": "MSL",
+    "trainLength": 6691,
+    "testLength": 4961,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1669,
+        1902
+      ],
+      [
+        1216,
+        1375
+      ],
+      [
+        1723,
+        1791
+      ]
+    ]
+  },
+  "MSL-8": {
+    "spacecraft": "MSL",
+    "trainLength": 6499,
+    "testLength": 5503,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3969,
+        4238
+      ],
+      [
+        1832,
+        2031
+      ]
+    ]
+  },
+  "MSL-9": {
+    "spacecraft": "MSL",
+    "trainLength": 6331,
+    "testLength": 5747,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2140,
+        2426
+      ]
+    ]
+  },
+  "MSL-10": {
+    "spacecraft": "MSL",
+    "trainLength": 6170,
+    "testLength": 6758,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2124,
+        2337
+      ],
+      [
+        6162,
+        6291
+      ],
+      [
+        3444,
+        3611
+      ]
+    ]
+  },
+  "MSL-11": {
+    "spacecraft": "MSL",
+    "trainLength": 8532,
+    "testLength": 6770,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4211,
+        4444
+      ],
+      [
+        1713,
+        1828
+      ]
+    ]
+  },
+  "MSL-12": {
+    "spacecraft": "MSL",
+    "trainLength": 8016,
+    "testLength": 5632,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        924,
+        1040
+      ],
+      [
+        3444,
+        3590
+      ]
+    ]
+  },
+  "MSL-13": {
+    "spacecraft": "MSL",
+    "trainLength": 8059,
+    "testLength": 6493,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3237,
+        3459
+      ]
+    ]
+  },
+  "MSL-14": {
+    "spacecraft": "MSL",
+    "trainLength": 7866,
+    "testLength": 4556,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1396,
+        1517
+      ],
+      [
+        3626,
+        3694
+      ],
+      [
+        1152,
+        1409
+      ]
+    ]
+  },
+  "MSL-15": {
+    "spacecraft": "MSL",
+    "trainLength": 8185,
+    "testLength": 5402,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1378,
+        1588
+      ],
+      [
+        736,
+        801
+      ],
+      [
+        1342,
+        1590
+      ]
+    ]
+  },
+  "MSL-16": {
+    "spacecraft": "MSL",
+    "trainLength": 7124,
+    "testLength": 6842,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3276,
+        3556
+      ],
+      [
+        1919,
+        1991
+      ],
+      [
+        4794,
+        4900
+      ]
+    ]
+  },
+  "MSL-17": {
+    "spacecraft": "MSL",
+    "trainLength": 7593,
+    "testLength": 5746,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4135,
+        4294
+      ]
+    ]
+  },
+  "MSL-18": {
+    "spacecraft": "MSL",
+    "trainLength": 7447,
+    "testLength": 5986,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4223,
+        4489
+      ]
+    ]
+  },
+  "MSL-19": {
+    "spacecraft": "MSL",
+    "trainLength": 8718,
+    "testLength": 6235,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4983,
+        5167
+      ],
+      [
+        922,
+        1101
+      ],
+      [
+        220,
+        416
+      ]
+    ]
+  },
+  "MSL-20": {
+    "spacecraft": "MSL",
+    "trainLength": 6639,
+    "testLength": 6621,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3730,
+        3801
+      ],
+      [
+        5113,
+        5167
+      ],
+      [
+        3987,
+        4214
+      ]
+    ]
+  },
+  "MSL-21": {
+    "spacecraft": "MSL",
+    "trainLength": 6199,
+    "testLength": 5944,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2056,
+        2225
+      ],
+      [
+        1850,
+        1983
+      ]
+    ]
+  },
+  "MSL-22": {
+    "spacecraft": "MSL",
+    "trainLength": 6730,
+    "testLength": 4880,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        814,
+        881
+      ],
+      [
+        4314,
+        4526
+      ],
+      [
+        2663,
+        2876
+      ]
+    ]
+  },
+  "MSL-23": {
+    "spacecraft": "MSL",
+    "trainLength": 6265,
+    "testLength": 6862,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        2460,
+        2657
+      ]
+    ]
+  },
+  "MSL-24": {
+    "spacecraft": "MSL",
+    "trainLength": 8970,
+    "testLength": 5216,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4240,
+        4351
+      ],
+      [
+        3742,
+        3995
+      ]
+    ]
+  },
+  "MSL-25": {
+    "spacecraft": "MSL",
+    "trainLength": 6505,
+    "testLength": 6007,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        3708,
+        3959
+      ],
+      [
+        2995,
+        3100
+      ]
+    ]
+  },
+  "MSL-26": {
+    "spacecraft": "MSL",
+    "trainLength": 8790,
+    "testLength": 5082,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        4409,
+        4516
+      ],
+      [
+        2957,
+        3043
+      ],
+      [
+        3768,
+        3968
+      ]
+    ]
+  },
+  "MSL-27": {
+    "spacecraft": "MSL",
+    "trainLength": 8548,
+    "testLength": 5124,
+    "features": 25,
+    "anomalyRanges": [
+      [
+        1822,
+        2096
+      ],
+      [
+        2523,
+        2656
+      ],
+      [
+        3922,
+        4044
+      ]
+    ]
+  }
+}

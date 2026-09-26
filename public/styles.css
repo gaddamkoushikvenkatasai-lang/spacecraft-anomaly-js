@@ -1,0 +1,39 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0f1724;color:#e2e8f0;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a2332,#0d1b2a);border-bottom:1px solid #1e3a5f;padding:20px 30px;display:flex;align-items:center;justify-content:space-between}
+.header h1{font-size:1.5em;color:#60a5fa}.header h1 span{color:#f59e0b}
+.header .subtitle{color:#64748b;font-size:0.85em}
+.container{display:grid;grid-template-columns:280px 1fr;min-height:calc(100vh - 80px)}
+.sidebar{background:#1a2332;border-right:1px solid #1e3a5f;padding:20px;overflow-y:auto;max-height:calc(100vh - 80px)}
+.sidebar h3{color:#60a5fa;margin-bottom:10px;font-size:0.9em;text-transform:uppercase;letter-spacing:1px}
+.sidebar label{display:block;color:#94a3b8;font-size:0.8em;margin:8px 0 3px}
+.sidebar select,.sidebar input{width:100%;padding:7px 9px;background:#0f1724;border:1px solid #334155;border-radius:6px;color:#e2e8f0;font-size:0.88em}
+.sidebar select:focus,.sidebar input:focus{outline:none;border-color:#60a5fa}
+.btn{width:100%;padding:11px;border:none;border-radius:8px;font-size:0.93em;font-weight:600;cursor:pointer;margin-top:10px}
+.btn-primary{background:linear-gradient(135deg,#3b82f6,#2563eb);color:#fff}
+.btn-primary:hover{background:linear-gradient(135deg,#2563eb,#1d4ed8)}
+.btn-primary:disabled{opacity:0.5;cursor:not-allowed}
+.btn-secondary{background:#334155;color:#e2e8f0}
+.divider{border:none;border-top:1px solid #1e3a5f;margin:14px 0}
+.main{padding:20px;overflow-y:auto;max-height:calc(100vh - 80px)}
+.tabs{display:flex;gap:4px;margin-bottom:16px;border-bottom:2px solid #1e3a5f}
+.tab{padding:9px 18px;background:0;border:0;color:#64748b;cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;font-size:0.93em}
+.tab.active{color:#60a5fa;border-bottom-color:#60a5fa}
+.tab-content{display:none}.tab-content.active{display:block}
+.metrics-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:16px}
+.metric-card{background:#1a2332;border:1px solid #1e3a5f;border-radius:10px;padding:14px;text-align:center}
+.metric-card .label{font-size:0.72em;color:#64748b;text-transform:uppercase}
+.metric-card .value{font-size:1.4em;font-weight:700;color:#60a5fa;margin-top:3px}
+.metric-card .value.green{color:#22c55e}.metric-card .value.red{color:#ef4444}.metric-card .value.yellow{color:#f59e0b}
+.chart-container{background:#1a2332;border:1px solid #1e3a5f;border-radius:10px;padding:14px;margin-bottom:14px}
+.chart-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ctable{width:100%;border-collapse:collapse;font-size:0.86em}
+.ctable th{background:#1e293b;color:#60a5fa;padding:9px 11px;text-align:left;border-bottom:2px solid #334155}
+.ctable td{padding:7px 11px;border-bottom:1px solid #1e293b}
+.ctable tr:hover td{background:#1e293b}
+.delta-pos{color:#22c55e;font-weight:600}.delta-neg{color:#ef4444;font-weight:600}
+.status-bar{background:#1e293b;border-radius:8px;padding:10px 14px;margin-bottom:14px;display:flex;align-items:center;gap:10px}
+.spinner{width:16px;height:16px;border:2px solid #334155;border-top-color:#60a5fa;border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.hidden{display:none!important}
+@media(max-width:900px){.container{grid-template-columns:1fr}.chart-row{grid-template-columns:1fr}}

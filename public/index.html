@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spacecraft Telemetry Anomaly Detection</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+</head>
+<body>
+  <div class="header">
+    <div>
+      <h1>🛰️ Spacecraft <span>Telemetry</span> Anomaly Detection</h1>
+      <div class="subtitle">NASA SMAP & MSL — LSTM Autoencoder & Predictor</div>
+    </div>
+    <div style="text-align:right;color:#64748b;font-size:0.85em">
+      TensorFlow.js + Plotly.js<br><span id="channelCount">--</span> channels
+    </div>
+  </div>
+  <div class="container">
+    <div class="sidebar">
+      <h3>Controls</h3>
+      <label>Spacecraft</label>
+      <select id="spacecraftFilter"><option value="all">All</option><option value="SMAP">SMAP</option><option value="MSL">MSL</option></select>
+      <label>Channel</label>
+      <select id="channelSelect"><option>Loading...</option></select>
+      <label>Model</label>
+      <select id="modelType"><option value="autoencoder">LSTM Autoencoder</option><option value="predictor">LSTM Predictor</option></select>
+      <hr class="divider">
+      <h3>Hyperparameters</h3>
+      <label>Window Size</label><input type="number" id="windowSize" value="100" min="10" max="500">
+      <label>Hidden Dim</label><input type="number" id="hiddenDim" value="80" min="16" max="256">
+      <label>Epochs</label><input type="number" id="epochs" value="30" min="5" max="200">
+      <label>Batch Size</label><input type="number" id="batchSize" value="64" min="16" max="256">
+      <label>Anomaly %ile</label><input type="number" id="anomalyPct" value="99.5" min="90" max="99.99" step="0.1">
+      <hr class="divider">
+      <button class="btn btn-primary" id="runBtn" onclick="runChannel()">🚀 Run Detection</button>
+      <button class="btn btn-secondary" onclick="previewData()">📊 Preview Data</button>
+    </div>
+    <div class="main">
+      <div class="tabs">
+        <button class="tab active" onclick="switchTab('analysis',this)">📡 Analysis</button>
+        <button class="tab" onclick="switchTab('comparison',this)">📊 Comparison</button>
+        <button class="tab" onclick="switchTab('overview',this)">📈 Overview</button>
+        <button class="tab" onclick="switchTab('about',this)">📖 About</button>
+      </div>
+      <div class="status-bar hidden" id="statusBar"><div class="spinner"></div><span id="statusText">Training...</span></div>
+      <div class="tab-content active" id="tab-analysis">
+        <div id="placeholder" style="text-align:center;padding:80px;color:#64748b"><h2>Select a channel and click Run</h2></div>
+        <div id="results" class="hidden">
+          <div class="metrics-grid" id="metricsGrid"></div>
+          <div class="chart-container"><div id="mainChart" style="width:100%;height:600px"></div></div>
+          <div class="chart-row">
+            <div class="chart-container"><div id="lossChart" style="width:100%;height:320px"></div></div>
+            <div class="chart-container"><div id="distChart" style="width:100%;height:320px"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="tab-comparison">
+        <h2 style="color:#60a5fa;margin-bottom:16px">Results vs KDD 2018 Paper</h2>
+        <div style="overflow:auto;max-height:600px"><table class="ctable" id="compTable"><thead><tr><th>Channel</th><th>Spacecraft</th><th>Our F1</th><th>Paper F1</th><th>Delta</th></tr></thead><tbody id="compBody"><tr><td colspan="5" style="text-align:center;color:#64748b">Run channels first</td></tr></tbody></table></div>
+      </div>
+      <div class="tab-content" id="tab-overview">
+        <h2 style="color:#60a5fa;margin-bottom:16px">Dataset Overview</h2>
+        <div class="metrics-grid" id="overviewMetrics"></div>
+        <div class="chart-container"><div id="overviewChart" style="width:100%;height:350px"></div></div>
+      </div>
+      <div class="tab-content" id="tab-about">
+        <h2 style="color:#60a5fa;margin-bottom:16px">About</h2>
+        <div style="max-width:800px;line-height:1.7;color:#94a3b8">
+          <p>LSTM-based anomaly detection for NASA SMAP/MSL spacecraft telemetry.</p>
+          <p><strong>Autoencoder:</strong> Reconstructs input windows. High error = anomaly.</p>
+          <p><strong>Predictor:</strong> Forecasts next value. High error = anomaly.</p>
+          <p>Paper: Hundman et al., KDD 2018. <a href="https://arxiv.org/abs/1802.04431" style="color:#60a5fa">arXiv:1802.04431</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
